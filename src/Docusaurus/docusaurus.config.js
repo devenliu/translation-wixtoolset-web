@@ -20,7 +20,12 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-CN'],
+    localeConfigs: {
+      'zh-CN': {
+        htmlLang: 'zh-CN',
+      },
+    },
   },
 
   presets: [
@@ -82,7 +87,8 @@ const config = {
           { to: '/news', label: 'News', position: 'right' },
           { type: 'doc', docId: 'intro', label: 'Docs', position: 'right' },
           { href: 'https://github.com/wixtoolset/', label: 'GitHub', position: 'right' },
-          { href: 'https://www.firegiant.com/services/?utm_source=wixtoolset.org&utm_medium=Display&utm_term=enterprise+support&utm_content=header', label: 'Enterprise Support', position: 'right'},
+          { href: 'https://www.firegiant.com/services/?utm_source=wixtoolset.org&utm_medium=Display&utm_term=enterprise+support&utm_content=header', label: 'Enterprise Support', position: 'right' },
+          { type: 'localeDropdown', position: 'right' },
         ],
       },
       footer: {

@@ -7,38 +7,28 @@ import BookSvg from '@site/static/img/open-book.svg';
 import DownloadSvg from '@site/static/img/icon-download.svg';
 import BugSvg from '@site/static/img/bug-search.svg';
 
+import Translate from '@docusaurus/Translate';
+
 const FeatureList = [
   {
-    title: 'Documentation',
+    title: <Translate id="components.HomepageFeatures.Documentation.title">Documentation</Translate>,
     Svg: BookSvg,
-    description: (
-      <>
-        There are lots of ways to learn about the WiX toolset.
-      </>
-    ),
-    linkText: 'Read more',
+    description: <Translate id="components.HomepageFeatures.Documentation.description">There are lots of ways to learn about the WiX toolset.</Translate>,
+    linkText: <Translate id="homepageFeatures.Documentation.linkText">Read more</Translate>,
     href: '/docs/intro'
   },
   {
-    title: 'Download',
+    title: <Translate id="components.HomepageFeatures.Download.title">Download</Translate>,
     Svg: DownloadSvg,
-    description: (
-      <>
-        You can download the WiX toolset for free.
-      </>
-    ),
-    linkText: 'Latest releases',
+    description: <Translate id="components.HomepageFeatures.Download.description">You can download the WiX toolset for free.</Translate>,
+    linkText: <Translate id="components.HomepageFeatures.Download.linkText">Latest releases</Translate>,
     href: '/docs/intro'
   },
   {
-    title: 'Bugs',
+    title: <Translate id="components.HomepageFeatures.Bugs.title">Bugs</Translate>,
     Svg: BugSvg,
-    description: (
-      <>
-        If you find a bug, let us know so we can fix it.
-      </>
-    ),
-    linkText: 'File a bug',
+    description: <Translate id="components.HomepageFeatures.Bugs.description">If you find a bug, let us know so we can fix it.</Translate>,
+    linkText: <Translate id="components.HomepageFeatures.Bugs.linkText">File a bug</Translate>,
     href: '/docs/gethelp#bugs'
   },
 ];
