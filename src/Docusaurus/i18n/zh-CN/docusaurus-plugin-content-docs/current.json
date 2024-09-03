@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "v4.0",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.WiX v5 for WiX v4 users": {
+    "message": "WiX v5 适用于 WiX v4 用户",
+    "description": "The label for category WiX v5 for WiX v4 users in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.WiX v4 for WiX v3 users": {
+    "message": "WiX v4 适用于 WiX v3 用户",
+    "description": "The label for category WiX v4 for WiX v3 users in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.WiX tools and concepts": {
+    "message": "WiX 工具和概念",
+    "description": "The label for category WiX tools and concepts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Burn bundles": {
+    "message": "Burn 捆绑包",
+    "description": "The label for category Burn bundles in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.WiX extensions and custom actions": {
+    "message": "WiX 扩展和自定义操作",
+    "description": "The label for category WiX extensions and custom actions in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Development": {
+    "message": "开发",
+    "description": "The label for category Development in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.WIPs": {
+    "message": "WIPs",
+    "description": "The label for category WIPs in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.WIPs.link.generated-index.description": {
+    "message": "WiX 改进提案",
+    "description": "The generated-index page description for category WIPs in sidebar docsSidebar"
+  }
+}

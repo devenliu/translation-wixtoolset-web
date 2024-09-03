@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "WiX Toolset 新闻",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "关于 WiX Toolset 的更新",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "最近新闻",
+    "description": "The label for the left sidebar"
+  }
+}
